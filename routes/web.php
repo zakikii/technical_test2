@@ -74,7 +74,7 @@ Route::get('/dashboard/products/gallery/delete/{id}', [DashboardProductControlle
 
 Route::get('/dashboard/transactions', [DashboardTransactionController::class, 'index'])->name('dashboard-transaction');
 Route::get('/dashboard/transactions/{id}', [DashboardTransactionController::class, 'details'])->name('dashboard-transaction-details');
-Route::get('/dashboard/transactions/{id}', [DashboardTransactionController::class, 'details2'])->name('dashboard-purchase-details');
+Route::get('/dashboard/purchase/{id}', [DashboardTransactionController::class, 'details2'])->name('dashboard-purchase-details');
 Route::get('/dashboard/settings', [DashboardSettingController::class, 'store'])->name('dashboard-settings-store');
 Route::get('/dashboard/account', [DashboardSettingController::class, 'account'])->name('dashboard-settings-account');
 Route::post('/dashboard/account/{redirect}', [DashboardSettingController::class, 'update'])->name('dashboard-settings-redirect');
