@@ -19,13 +19,18 @@ for your information, im using laravel with composer.
 8. set up some packages
     add this following code to .env file :
     MIDTRANS_SERVER_KEY="SB-Mid-server-NaAKI9fj8xruf5EowZn2BP56"
+    
     MIDTRANS_CLIENT_KEY="SB-Mid-client-2Y-DEuymXOjp9zE6"
+    
     MIDTRANS_IS_PRODUCTION=false
+    
     MIDTRANS_IS_SANITIZED=true
+    
     MIDTRANS_IS_3DS=true
 
     JWT_SECRET=LHGUUZquDevmytWyC7Bhj7ZNDDjr7XaQmbKPg2fGZeXE0jlBJKknA0Io0RJMaUYY
 9. run php artisan serve :)
 u can run the admin menu by change the users role to ADMIN.
-    
-https://drive.google.com/file/d/1-Co-996EH8etGKu2ABo0ohkm4oZvZCmG/view?usp=share_link
+
+here some pics of my laravel program
+[https://drive.google.com/file/d/1-Co-996EH8etGKu2ABo0ohkm4oZvZCmG/view?usp=share_link](https://drive.google.com/drive/folders/14DslI8yrInunbNVzPzV40xkPmGQMFP9K?usp=share_link)
