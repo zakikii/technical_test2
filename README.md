@@ -16,8 +16,9 @@ for your information, im using laravel with composer.
 5. set up the database like dbname and etc
 6. run php artisan migrate, or u can use the market_place.sql file instead (skip number 7 step)
 7. set up indoregion data to get province and region data, u can see at https://github.com/azishapidin/indoregion
-8. set up some packages
+8. set up some packages,
     add this following code to .env file :
+    
     MIDTRANS_SERVER_KEY="SB-Mid-server-NaAKI9fj8xruf5EowZn2BP56"
     
     MIDTRANS_CLIENT_KEY="SB-Mid-client-2Y-DEuymXOjp9zE6"
